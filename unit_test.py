@@ -35,3 +35,6 @@ class TestCalculatePeriodicTime(unittest.TestCase):
 
 if __name__ == '__main__':
   unittest.main()
+  #Instead of the above two lines, we can use, two lines, below too. 
+#if __name__ == '__main__':
+ # unittest.main(argv=['first-arg-is-ignored'], exit=False)
