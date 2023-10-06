@@ -94,3 +94,10 @@ print("periodic times corresporing to the lengths are ", round_time,"seconds")
 
 #RESULT of RUNNING THe code:
 <img width="825" alt="Screen Shot 2023-10-05 at 9 45 08 PM" src="https://github.com/ubsuny/23-Homework3G1/assets/38404107/806870ca-34bd-4fa7-9681-dff2699df368">
+
+
+Resources: 
+- [Python Lambda](https://www.w3schools.com/python/python_lambda.asp)
+- [bard.google](https://bard.google.com/faq#coding)
+- [Python_Map()](https://www.geeksforgeeks.org/python-map-function/)
+- [Python map() – List Function with Examples](https://www.freecodecamp.org/news/python-map-explained-with-examples/)
