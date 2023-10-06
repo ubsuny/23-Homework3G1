@@ -81,8 +81,8 @@ Pylint is a powerful tool that help to maintain quality and consistency of pytho
 [algorithm10_pylint](https://colab.research.google.com/drive/1SJCVF3-9tEVC18AI5cqoRusr9Ej-bVkn?usp=sharing)
 <img width="848" alt="Pylint10" src="https://github.com/pratibha77118/23-Homework3G1/assets/72980895/0a15f645-3d50-4dc0-866e-753f1b7aa71e">
 
-
-
+# Using Assert function
+Assert is a build in python function used for debugging purposes and check the given condition. If the given condition is true then the program continues to run as normal but if the condition is false then assert raises an 'AssertionError' with a error message which helps for debugging.
 # Sources
 - (https://openai.com/chatgpt)
 - (https://docs.python.org/3/tutorial/modules.html)
