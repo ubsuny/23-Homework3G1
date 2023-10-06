@@ -153,7 +153,7 @@ Pylint is a powerful tool that help to maintain quality and consistency of pytho
 
 
 # Sources
-- [\ref] https://medium.com/@vladbezden/using-python-unittest-in-ipython-or-jupyter-732448724e31
+- https://medium.com/@vladbezden/using-python-unittest-in-ipython-or-jupyter-732448724e31
 - (https://openai.com/chatgpt)
 - (https://docs.python.org/3/tutorial/modules.html)
 - (https://pypi.org/project/pylint/)
