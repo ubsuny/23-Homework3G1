@@ -149,7 +149,7 @@ Pylint is a powerful tool that help to maintain quality and consistency of pytho
 # Using Assert function
 Assert is a build in python function used for debugging purposes and check the given condition. If the given condition is true then the program continues to run as normal but if the condition is false then assert raises an 'AssertionError' with a error message which helps for debugging.
 # Sources
-- [\ref] https://medium.com/@vladbezden/using-python-unittest-in-ipython-or-jupyter-732448724e31
+- https://medium.com/@vladbezden/using-python-unittest-in-ipython-or-jupyter-732448724e31
 - (https://openai.com/chatgpt)
 - (https://docs.python.org/3/tutorial/modules.html)
 - (https://pypi.org/project/pylint/)
