@@ -23,6 +23,7 @@ L is the length of the string and g is acceleration due to gravity
 # Code Using Module
 Module is a file containing python definition and statements and can be imported into other modules. Using module we can import the file created earlier to use it in several programs. The filename is the module name with .py appended and is imported with the module name to run the program we want.
  ```python
+#algorithm.py
 import math
 
 def calculate_periodic_time(l):
@@ -43,25 +44,29 @@ def calculate_periodic_time(l):
 __all__=["calculate_periodic_time"]
 ```
 ```python
+%%writefile algorithm.py
+```
+```python
 import algorithm
 lengths_list = input("Enter a list of length, separated by commas: ")
-# Split the user input string into a list.
+ # Split the user input string into a list.
 lengths_list = lengths_list.split(",")
 # Convert the elements of the list to integers
 integer_list = []
 for element in lengths_list:
-  integer_list.append(int(element))
+  integer_list.append(float(element))
 # Print the integer list.
-print("your list of lengths is: ", integer_list)
+print("your list of lengths is: ", integer_list,"meters")
 #--------------------------------------------------------------#
 # Use map to apply the lambda function to each length in the list
 periodic_times = map(calculate_periodic_time(integer_list), integer_list)
 # Print the periodic times and round them to 2 sig digits
 T=[periodic_time for periodic_time in periodic_times]
 round_time=[round(element,2) for element in T]
-print("periodic times corresporing to the lengths are ", round_time)
+print("periodic times corresporing to the lengths are ", round_time,"seconds")
 
 __all__=["period"]
+    
 ```
 # Output
 <img width="524" alt="Output" src="https://github.com/pratibha77118/23-Homework3G1/assets/72980895/c2cb28a9-ffad-4d8a-82ca-d70922a0fb08">
@@ -70,9 +75,10 @@ __all__=["period"]
 # Implementing Pylint
 Pylint is a powerful tool that help to maintain quality and consistency of python codes. It helps to write cleaner, more readable, and less error-prone code by identifying and flagging potential issues and errors adherence to coding standards.
 
-[algorithm_updated_pylint](https://colab.research.google.com/drive/1j_jzIS7krITIwnW8cCtz9zw191C5FcOc?usp=sharing)
+[algorithm10_pylint](https://colab.research.google.com/drive/1SJCVF3-9tEVC18AI5cqoRusr9Ej-bVkn?usp=sharing)
+<img width="848" alt="Pylint10" src="https://github.com/pratibha77118/23-Homework3G1/assets/72980895/0a15f645-3d50-4dc0-866e-753f1b7aa71e">
 
-<img width="1107" alt="pylint_output" src="https://github.com/pratibha77118/23-Homework3G1/assets/72980895/fb98fd12-dd99-419b-a82a-70096acff21f">
+
 
 # Sources
 - ChatGpt
