@@ -10,7 +10,7 @@ where l is the length of the string in meters, g is the acceleration due to grav
 File(1): Algorithm.py
 1- start with defining a function to calculate the periodic time ``` calculate_periodic_time(l) ```  with agrument l 
 
-- variable g where g is constant of 9.81 m/s^2.
+ *variable g where g is constant of 9.81 m/s^2.
 
 2- use lambda function to calculate the periodic time ``` lambda l: 2* math.pi/ math.sqrt(g / l) ```. 
 
