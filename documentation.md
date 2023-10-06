@@ -153,6 +153,8 @@ Assert is a build in python function used for debugging purposes and check the g
 - (https://openai.com/chatgpt)
 - (https://docs.python.org/3/tutorial/modules.html)
 - (https://pypi.org/project/pylint/)
+- [Python Lambda](https://www.w3schools.com/python/python_lambda.asp)
+- [bard.google](https://bard.google.com/faq#coding)
 
 
 
