@@ -9,11 +9,14 @@ where l is the length of the string in meters, g is the acceleration due to grav
 ## The Algorithm:
 File(1): Algorithm.py
 1- start with defining a function to calculate the periodic time ``` calculate_periodic_timr(l) ```  with agrument l and g where g is constant of 9.81 m/s^2.
+
 2- use lambda function to calculate the periodic time ``` lambda l: 2* math.pi/ math.sqrt(g / l) ```. 
+
 3-   make the algorithm.py file callable module  ``` __all__=["calculate_periodic_time"] ```.
 
 File (2): Period.py
- 1- Create another python file and import the Module file containing the algorithm ``` import algorithm ```
+ 1- Create another python file and import the Module file containing the algorithm ``` import algorithm ```.
+ 
 2- Ask the user to enter the lengths separated by commas and use them to create a list of floats and then print the inputs as a list of length.
 
 ```
