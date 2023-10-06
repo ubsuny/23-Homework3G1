@@ -1,14 +1,17 @@
 # To find the time period of simple pendulum
 Simple Pendulum is a small bob of mass m, also known as pendulum bob which is suspended from
 a light wire or string. The period of pendulum is the time required for pendulum to complete one oscillation. One oscillation is the motion of the pendulum beginning at some reference point and continuing untill the reference point is reached again. The time period (T) is estimated using: 
+
 <img width="133" alt="Time_period" src="https://github.com/pratibha77118/23-Homework3G1/assets/72980895/4f12ecd9-c864-4d24-bc50-f1ad69072843">
+
+
 L is the length of the string and g is acceleration due to gravity
 # Objectives
 1 To use a classical mechanics function as a python function and using this function as an argument in another function.
 # Steps to implement
-- Define a classical mechanics function as periodic time with arguments l and g.- 
+- Define a classical mechanics function as periodic time with arguments l and g. 
 - Use Lambda function to calculate the periodic time.
-- Save the file as module
+- Save the file as a module
 - Import module defined earlier.
 - List the length values.
 - Use map function to calculate time using each element in the lists.
@@ -18,7 +21,7 @@ L is the length of the string and g is acceleration due to gravity
 - The process is repeated
   # Functions used
 - Lambda Function : Lambda function is used as a substitute for fully fledge name function to use it as a simple operation. They have limitations in comparision to function defined by 'def'. They are mostly used for simple one linear operations and are not preferred for multisteps complex operations
-- Map function: Map function is used to apply a specificed function to each item in an iterable and return a new iterable containing the results.
+- Map function: Map function is used to apply a specific function to each item in an iterable and return a new iterable containing the results.
 
 # Code Using Module
 Module is a file containing python definition and statements and can be imported into other modules. Using module we can import the file created earlier to use it in several programs. The filename is the module name with .py appended and is imported with the module name to run the program we want.
@@ -81,7 +84,7 @@ Pylint is a powerful tool that help to maintain quality and consistency of pytho
 
 
 # Sources
-- ChatGpt
+- (https://openai.com/chatgpt)
 - (https://docs.python.org/3/tutorial/modules.html)
 - (https://pypi.org/project/pylint/)
 
