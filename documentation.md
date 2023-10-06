@@ -74,12 +74,14 @@ __all__=["period"]
 # Output
 <img width="524" alt="Output" src="https://github.com/pratibha77118/23-Homework3G1/assets/72980895/c2cb28a9-ffad-4d8a-82ca-d70922a0fb08">
 
-#Unit_Test..
-A unit test was done for this algorithm and was checked whethere the code works well or not. The unit test code can be seen below,  
+# Using Assert function
+Assert is a build in python function used for debugging purposes and check the given condition. If the given condition is true then the program continues to run as normal but if the condition is false then assert raises an 'AssertionError' with a error message which helps for debugging.
+# Unit_Test..
+A unit test was done for this algorithm and was checked whethere the code works well or not. The unit test code can be seen below, 
+```python
 import unittest
 import math
-
-# Define the function to calculate the periodic time
+#Define the function to calculate the periodic time
 def calculate_periodic_time(l):
     """Calculates the periodic time of a simple pendulum.
 
@@ -117,8 +119,9 @@ class TestCalculatePeriodicTime(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-It was found that, the unit test code has some environment compatibilty issues. The resul I got was, 
-E
+```
+-It was found that, the unit test code has some environment compatibilty issues. The result I got was, 
+
 ======================================================================
 ERROR: /root/ (unittest.loader._FailedTest)
 ----------------------------------------------------------------------
@@ -128,14 +131,16 @@ AttributeError: module '__main__' has no attribute '/root/'
 Ran 1 test in 0.004s
 
 FAILED (errors=1)
-An exception has occurred, use %tb to see the full traceback.
+-An exception has occurred, use %tb to see the full traceback.
 
 SystemExit: True
 /usr/local/lib/python3.10/dist-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
   warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
 But the Ran 1 test in 0.004s can bee seen here. after trying fixing the code, I found a solution to avoid the issue, by adding the extra line to the code,[\ref] 
 #unittest.main(argv=['first-arg-is-ignored'], exit=False)
+
 _**And The reason is that unittest.main looks at sys.argv and first parameter is what started IPython or Jupyter, therefore the error about kernel connection file not being a valid attribute. Passing explicit list to unittest.main will prevent IPython and Jupyter look at sys.argv. Passing exit=Fals will prevent unittest.main to shutdown the kernell process_**
+
 By doing this, the unit test code unifortunatly failes the actual code. Which seems very unlikely. 
 
 
@@ -146,8 +151,7 @@ Pylint is a powerful tool that help to maintain quality and consistency of pytho
 [algorithm10_pylint](https://colab.research.google.com/drive/1SJCVF3-9tEVC18AI5cqoRusr9Ej-bVkn?usp=sharing)
 <img width="848" alt="Pylint10" src="https://github.com/pratibha77118/23-Homework3G1/assets/72980895/0a15f645-3d50-4dc0-866e-753f1b7aa71e">
 
-# Using Assert function
-Assert is a build in python function used for debugging purposes and check the given condition. If the given condition is true then the program continues to run as normal but if the condition is false then assert raises an 'AssertionError' with a error message which helps for debugging.
+
 # Sources
 - [\ref] https://medium.com/@vladbezden/using-python-unittest-in-ipython-or-jupyter-732448724e31
 - (https://openai.com/chatgpt)
